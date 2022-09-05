@@ -77,6 +77,11 @@
                 </executions>
             </plugin>
 
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -97,13 +102,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-        </plugins>
-    </build>
-
-    <reporting>
-        <plugins>
-            <plugin>
                 <reportSets>
                     <reportSet>
                         <reports>
